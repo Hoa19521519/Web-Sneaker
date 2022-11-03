@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    /* position: absolute; */
+    width: 100%;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(0, 0, 0, 0.78);
+}
+
+.logo{
+    position: absolute;
+width: 192px;
+height: 179px;
+left: 85px;
+top: 13px;
+
+background: url(sneaker-store-logo-template_327390-50); 
+
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+-moz-border-radius:50%;
+-webkit-border-radius: 50%;
+}
+.text-logo{
+     position: absolute; 
+width: 198px;
+height: 79px;
+left: 295px;
+top: 69px;
+
+font-family: inherit;
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+line-height: 50px;
+
+color: #F5F5F5;
+}
+.header-search{
+    position: absolute;
+width: 664px;
+height: 69px;
+left: 539px;
+top: 61px;
+
+background: rgba(217, 217, 217, 0.41);
+border-radius: 20px;
+}
+.nhap {
+     position: absolute;
+    width: 200px;
+   height: 10px;
+    left: 20px;
+    top: 18px;  
+     
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: rgba(255, 255, 255, 0.53);
+    
+
+}
+
+.icon{
+    position: absolute;
+    width: 210px;
+   height: 10px;
+    left: 300px;
+    top: 18px;
+}
+.icon img{
+   
+    width: 300%;
+    height: 300%;
+    object-fit: contain;
+    
+}
+.signin{
+    position: absolute;
+width: 65px;
+height: 65px;
+left: 1258px;
+top: 58px;
+
+}
+.signin img{
+    width: 100%;
+    height: 100%;
+    
+}
+.cart{
+    position: absolute;
+width: 67px;
+height: 62px;
+left: 1348px;
+top: 61px;
+}
+.cart img{
+    width: 100%;
+    height: 100%;
+}
